@@ -38,8 +38,7 @@ class dataProvide {
 			for (int j = 0; j < columnCount; j++) {
 				
 				XSSFCell cell = row.getCell(j);
-				data[i][j]=	formatter.formatCellValue(cell);
-					
+				data[i][j]=	formatter.formatCellValue(cell);	
 			}
 		}
 		return data;
@@ -53,6 +52,6 @@ class dataProvide {
 	public void Testcase(String greet, String comm, String id){
 
 		System.out.println(greet);
-
-	}
-}
+		System.out.println("branch");
+		System.out.println("branch2");
+}}
